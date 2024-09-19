@@ -1,0 +1,48 @@
+.services {
+    margin: 70px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services img {
+    width: 150%;
+    margin-top: 70px;
+    margin-left: 25%;
+    padding-right: 80px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    display: inline-block;
+}
+
+.caption {
+    display: inline-block;
+}
+
+.caption h3 {
+    margin: 0 0 20px 80px;
+    padding-left: 15rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    word-spacing: 3px;
+}
+
+.caption .p1 {
+    padding: 0 0 2rem 25rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.caption .p2 {
+    padding: 0 0 2rem 20rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 40;
+    font-size: 25px;
+    word-spacing: 2px;
+}
