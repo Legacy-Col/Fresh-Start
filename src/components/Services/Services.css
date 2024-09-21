@@ -4,6 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgba(61, 54, 54, 0.7);
+    border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 .services img {
