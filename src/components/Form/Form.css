@@ -1,0 +1,83 @@
+ form {
+    text-align: center;
+    padding-left: 55%; 
+    margin-top: -48%;
+} 
+
+.form-container {
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 0 0 20px ;
+    padding: 0 20px 0 20px ;
+    transition: transform 0.2;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.visage {
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+input {
+    display: grid;
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+input[type='radio'] {
+    display: inline;
+    width: 10%;
+}
+
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    width: 98%;
+    min-height: 100px;
+    max-height: 150px;
+    background-color: rgba(181, 171, 171, 0.4);
+    color: black;
+}
+
+.btn-1,
+.btn-2 {
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    width: 50%;
+    font-size: 16px;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    transition: 0.4ms ease-in-out all;
+    background-color: black;
+    color: wheat;
+}
