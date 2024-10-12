@@ -1,14 +1,14 @@
  form {
     text-align: center;
-    padding-left: 55%; 
-    margin-top: -48%;
+    padding-left: 45%; 
+    margin-top: -45%;
 } 
 
 .form-container {
     background-color: wheat;
     border-radius: 15px;
     box-shadow: 0 0 20px ;
-    padding: 0 20px 0 20px ;
+    padding: 0 20px 0 30px ;
     transition: transform 0.2;
     width: 300px;
     text-align: center;
@@ -62,8 +62,7 @@ textarea {
     color: black;
 }
 
-.btn-1,
-.btn-2 {
+.btn-1 {
     padding: 10px 15px;
     border-radius: 6px;
     margin: 15px;
@@ -75,9 +74,14 @@ textarea {
     font-size: 16px;
 }
 
-.btn-1:hover,
-.btn-2:hover {
+.btn-1:hover {
     transition: 0.4ms ease-in-out all;
     background-color: black;
     color: wheat;
+}
+
+.form-container span {
+    margin: 20px 0;
+    font-weight: 300px;
+    font-size: 20px;
 }

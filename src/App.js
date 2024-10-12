@@ -5,6 +5,9 @@ import Services from './components/Services/Services';
 import Title from './components/Title/Title';
 import Practice from './components/Practices/Practice';
 import Form from './components/Form/Form';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -12,10 +15,14 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services />
-      <Title subTitle='Our PRACTICES' title='What We Offer' />
+      <Title subTitle='Our PRACTICES' title='What We Do' />
       <Practice />
-      {<Form /> }
-    </div>
+      <Form />
+      <About />
+      <Title subTitle='Contact Us' title='Get in Touch' />
+      <Contact />
+      <Footer />
+     </div>
   );
 }
 

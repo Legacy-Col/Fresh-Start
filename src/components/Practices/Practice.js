@@ -7,7 +7,7 @@ import estate from '../../law/house.png'
 
 const Practice = () => {
   return (
-          <div className='box-vault'>
+          <div className='box-vault' id='practices'>
                 <div className='box'>
                   <img src= { corprate } alt='' className='box-pix' />
                 <div className='desc'>

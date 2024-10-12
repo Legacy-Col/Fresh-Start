@@ -5,7 +5,7 @@ import lawyers  from '../../law/Lawyers.jpg';
 
 const Services = () => {
   return (
-      <div className='services'>
+      <div className='services' id='services'>
             <div className='service'>
                     <img src={lawyers} alt='' />
             </div>
