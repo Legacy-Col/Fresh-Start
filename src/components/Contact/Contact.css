@@ -79,3 +79,7 @@ img {
     background-color: #c7ab6b;
     cursor: pointer;
 }
+/* Media Querries */
+@media screen and (max-width:480px) {
+    
+}

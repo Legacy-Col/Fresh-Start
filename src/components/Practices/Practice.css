@@ -39,3 +39,86 @@
     justify-items:center;
 }
 
+/* Media Querry */
+@media screen and (max-width:480px) {
+    .box-vault {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+        gap: 10px;
+        align-items: center;
+        margin: 10px 20px ;
+        padding: 0;
+    }
+    .box {
+        width: 90%;
+        height: 330px;       
+    }
+    .desc {
+        width: 100%;
+        align-items: center;
+    }
+    .desc h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-weight: 400px;
+        text-align: center;
+    }
+    .desc p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .box-vault {
+        width: 100%;
+        padding: 0;
+        margin: 10px 20px;
+        gap: 10px;
+    }
+    .box {
+        width: 100%;
+        height: 370px;
+    }
+    .desc {
+        width: 100%;
+        align-items: center;
+    }
+    .desc h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .desc p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:1500px) {
+    .box-vault {
+        justify-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 20px 40px;
+        gap: 20px;
+    }
+    .box {
+        width: 100%;
+        height: auto;
+    }
+    .desc {
+        width: 100%;
+        align-items: center;
+    }
+    .desc p{
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 250px;
+        margin-top: 20px;
+    }
+}

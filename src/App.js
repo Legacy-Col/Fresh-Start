@@ -15,11 +15,14 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <About />
       <Services />
       <Title subTitle='Our PRACTICES' title='What We Do' />
-      <Practice />
-      <Form />
-      <About />
+      <div className='formz'> 
+          <Practice />
+          <Form />
+      </div>
+      
       <Testimonials />
       <Title subTitle='Contact Us' title='Get in Touch' />
       <Contact />

@@ -23,9 +23,9 @@ const Navbar = () => {
           <p className='logo'> OMA's <span>LEGAL</span></p>
           <ul>
               <li><Link to='home' smooth={true} offset={0}>HOME</Link></li>
+              <li><Link to='about' smooth={true} offset={-75}>ABOUT</Link></li>
               <li><Link to='services' smooth={true} offset={-125}>SERVICES</Link></li>
               <li><Link to='practices' smooth={true} offset={-240}>PRACTICES</Link></li>
-              <li><Link to='about' smooth={true} offset={-75}>ABOUT</Link></li>
               <li><Link to='testimonials' smooth={true} offset={-75}>TESTIMONIALS</Link></li>
               <li><Link to='contact' smooth={true} offset={-270} className='btn'>CONTACT US</Link></li>
       </ul>

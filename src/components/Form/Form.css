@@ -1,8 +1,8 @@
- form {
+ /* form {
     text-align: center;
     padding-left: 45%; 
     margin-top: -45%;
-} 
+}  */
 
 .form-container {
     background-color: wheat;
@@ -12,7 +12,6 @@
     transition: transform 0.2;
     width: 300px;
     text-align: center;
-    margin: auto;
 }
 
 h3 {
@@ -84,4 +83,50 @@ textarea {
     margin: 20px 0;
     font-weight: 300px;
     font-size: 20px;
+}
+/* Media Querry */
+@media screen and (max-width:480px) {
+    .form-container {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+/* Media Querries */
+@media screen and (max-width:780px){
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 0;
+        margin: 10px 50px 0 50px;
+    }
+    .form-dsc h3{
+        margin: 20px 0;
+        align-items: center;
+    }
+    .form-dsc p {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .form-data {
+        margin: 20px 40px;
+    }
+    .form-data .btn-1 {
+        margin: 20px 0 0 0;
+    }
+}
+
+/* Media Querries */
+@media screen and (min-width:780px) and (max-width: 1000px) {
+    .form-container {
+        margin: 20px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
