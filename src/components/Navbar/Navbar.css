@@ -13,13 +13,23 @@ nav {
 }
 
 .logo {
-    width: 180px;
+    width: 190px;
+    font-size:x-large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid transparent;
+    border-radius: 25px;
+}
+
+.logo span {
+    color:orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    margin: 5px 20px;
+    margin: 5px 10px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -29,43 +39,46 @@ nav ul li {
     transition: 0.5s;
 }
 
+/* .menu-icon {
+    display: none;
+} */
 
-/* Media Querry */
+/* --MEDIA Query-- */
 
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
     .logo {
-        width: 140px;
+        width: 90px;
     }
-
     nav ul li {
-        margin: 10px 15px;
+        margin:15px 20px;
     }
 }
 
 @media (max-width: 840px) {
     nav {
-        padding: 15px 0;
+        padding: 1% 0;
     }
-
     nav ul {
         position: fixed;
         top: 0;
-        right: 0;
-        bottom: 0;
+        right: 0px;
+        background: rgb(197, 171, 126);
         z-index: -1;
         width: 200px;
-        padding-top: 70px;
+        padding-top: 45px;
         transition: 0.5s;
     }
-
     nav ul li {
         display: block;
-        margin: 15px 40px;
+        margin: 30px 50px;
     }
-
-    .dark-nav ul {
+    .menu-icon {
         display: block;
-        margin: 20px 0px;
-        background: rgb(176, 163, 140);
+        width: 20px; 
+        cursor: pointer;
+    } 
+
+    .mobile-menu {
+        right: -200px;
     }
 }

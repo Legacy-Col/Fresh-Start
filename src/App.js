@@ -8,6 +8,7 @@ import Form from './components/Form/Form';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Testimonials from './components/Testimonials/Testimonials';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Practice />
       <Form />
       <About />
+      <Testimonials />
       <Title subTitle='Contact Us' title='Get in Touch' />
       <Contact />
       <Footer />
