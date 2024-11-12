@@ -13,3 +13,32 @@
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Media Querries */
+@media screen and (max-width:480px) {
+    .footer {
+        width: 90%;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .footer ul li {
+        font-size: 15px;
+        line-height: 20px;
+        word-spacing: 1;
+        align-items: flex-end;
+    }
+}
+
+/* Media Querries */
+@media screen and (max-width:780px) {
+    .footer {
+        width: 90%;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+    }
+}

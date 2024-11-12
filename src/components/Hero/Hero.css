@@ -28,20 +28,34 @@
 
 /* ---Media Queryy--- */
 
-@media (max-width:850px) {
-    .hero-text h1 {
-        font-size: 40px;
+@media screen and (max-width:480px) {
+    .hero-container {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-}
-@media (max-width:650px) {
     .hero-text h1 {
-        font-size: 20px;
-        max-width: 40px;
-        margin: auto;
+        text-align: center;
+        margin: 50px;
+        font-size: 40px;
+        width: 60%;
     }
     .hero-text p {
         font-size: 14px;
         margin: 15px auto 30px;
     }
+}
+@media screen and (max-width:780px) {
+    .hero-container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+        width: 90%;
+    }
+    
 }
 
