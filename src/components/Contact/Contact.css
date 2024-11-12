@@ -16,7 +16,6 @@
     font-size: 25px;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .cntct-col p {
@@ -79,7 +78,50 @@ img {
     background-color: #c7ab6b;
     cursor: pointer;
 }
+
 /* Media Querries */
 @media screen and (max-width:480px) {
-    
+    .contact {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        overflow: hidden;
+    }
+    .cntct-col {
+        align-items: center;
+        width: 70%;
+    }
+    .cntct-col h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .cntct-col p {
+        font-size: 15px;
+    }
+    .cntct-col ul li {
+        text-align: center;
+        font-size: 15px;
+    }
+    .free {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .free img {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .free h3 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+    .free span {
+        font-size: 15px;
+        text-align: left;
+        
+    }
 }
