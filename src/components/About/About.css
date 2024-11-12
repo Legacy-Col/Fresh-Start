@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    box-shadow: 1px;
+    border-radius: 25px;
+    background: rgba(142, 144, 137, 0.574);
+    padding: 50px;
 }
 
 .about-left {
@@ -20,8 +24,8 @@
 }
 
 .about h3 {
-    margin-top: -30%;
-    margin-left: -30%;
+    /* margin-top: -30%;
+    margin-left: -30%; */
     font-weight: 450;
     font-size: 30px;
     text-align: center;
@@ -39,4 +43,88 @@
 
 .about p {
     margin-bottom: 15px;
+}
+
+/* Media Querries */
+@media screen and (max-width:480px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-right p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+/* Media Querries */
+@media screen and (max-width:780px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-left {
+        display: flex;
+        flex-direction: row;
+        gap: 20;
+    }
+    .about-right{
+        align-items: center;
+    }
+    .about-right h3{
+        align-self: center;
+        margin-top: 40px;
+    }
+    .about-right h2{
+        align-self: center;
+    }
+    .about-right p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+/* Media Querries */
+@media screen and (max-width:1500px) {
+    .about {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-left {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-left img {
+        padding: 0 20px 0 0;
+    }
+    .about-right{
+        width: 60%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 20px;
+    }
+    .about-right h3{
+        align-self: center;
+        margin-top: 40px;
+    }
+    .about-right h2{
+        align-self: center;
+    }
+    .about-right p {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
 }

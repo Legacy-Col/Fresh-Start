@@ -39,9 +39,9 @@ nav ul li {
     transition: 0.5s;
 }
 
-/* .menu-icon {
+.menu-icon {
     display: none;
-} */
+} 
 
 /* --MEDIA Query-- */
 
@@ -82,3 +82,4 @@ nav ul li {
         right: -200px;
     }
 }
+
