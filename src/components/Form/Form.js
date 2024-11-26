@@ -61,6 +61,12 @@ const Form = () => {
                         hidden
                     />
 
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value={`${Name} sent  a message from Omas Legal`}
+                    />
+
                     {/* <input type='radio' placeholder='Gender' name='gender'  required/>Male
                     <input type='radio'  placeholder='Gender' name='gender' required/>Female
                     <input type='radio' placeholder='Gender' name='gender'  required/>Other*/}
