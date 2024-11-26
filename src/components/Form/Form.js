@@ -53,18 +53,14 @@ const Form = () => {
                         hidden
                     />
 
+                    <input type="hidden" name="subject" />
+
                     <input
                         type="text"
                         placeholder="Phone Number"
                         name="Phone Number"
                         required
                         hidden
-                    />
-
-                    <input
-                        type="hidden"
-                        name="subject"
-                        value={`${Name} sent  a message from Omas Legal`}
                     />
 
                     {/* <input type='radio' placeholder='Gender' name='gender'  required/>Male
