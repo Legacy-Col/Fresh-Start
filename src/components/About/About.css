@@ -50,17 +50,11 @@
     .about {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         align-items: center;
-        justify-content: center;
+        border: 1px solid red;
     }
-    .about-right p {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        font-weight: 300;
-    }
-}
-
+}   
 /* Media Querries */
 @media screen and (max-width:780px) {
     .about {
@@ -96,7 +90,7 @@
 @media screen and (max-width:1500px) {
     .about {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 90%;
         align-items: center;
         justify-content: center;
